@@ -1,10 +1,15 @@
 .giant-font {
-    font-size: 60px;
+    font-size: 60em;
+    colour: FFFFFF;
 }
 
-.hero-banner {
+.masthead {
     background-image: url('images/kayak-bkgd.jpg');
     background-size: cover;
+    
+}
+
+.rental prices th {
     
 }
 
