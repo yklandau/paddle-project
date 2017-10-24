@@ -1,3 +1,29 @@
+header{
+    background: black;
+    width: 100%;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    padding: 1em;
+    
+}
+
+body {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
 .giant-font {
     font-size: 60em;
     colour: FFFFFF;
@@ -10,6 +36,6 @@
 }
 
 .rental prices th {
-    
+
 }
 
