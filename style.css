@@ -1,3 +1,5 @@
+/* Header */
+
 header{
     background: black;
     width: 100%;
@@ -17,6 +19,47 @@ header img{
     
 }
 
+/* Masthead */
+
+.masthead {
+    background: url('images/kayak-bkgd.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.masthead .center-text {
+    width: 100%;
+    color: white;
+
+}
+
+masthead p {
+    width: 80%;
+    color: white;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.75em;
+    text-align: center;
+    padding: 0.75em 1em; 
+
+}
+
+masthead a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-decoration: none;
+    padding: 0.75em;
+
+    width: 25%;
+    background color: salmon;
+    border-radius: 60em;
+    
+
+}
+
 body {
     width: 100%;
 }
@@ -24,16 +67,13 @@ body {
 img {
     width: 100%;
 }
-.giant-font {
-    font-size: 60em;
-    colour: FFFFFF;
+.giant-head {
+    font-size: 60px;
+    color: white;
 }
 
-.masthead {
-    background-image: url('images/kayak-bkgd.jpg');
-    background-size: cover;
-    
-}
+
+
 
 .rental prices th {
 
