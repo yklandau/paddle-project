@@ -3,6 +3,9 @@
 header {
     background: black;
     width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 2em;
 
 }
 
@@ -10,14 +13,37 @@ header a {
     color: white;
     text-decoration: none;
     text-align: center;
+   
 }
 
 header img {
     max-width: 50%;
     margin: auto;
     display: block;
-    padding: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+
     
+}
+
+header nav {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    width: 80%;
+    display: flex; 
+    justify-content: space-around;
+    margin: auto;
+}
+
+main {
+    margin-top: 218px;
+
+    
+
+
 }
 
 /* Masthead */
@@ -26,6 +52,7 @@ header img {
     background: url('images/kayak-bkgd.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 15em 0;
 }
 
 .masthead .center-text {
@@ -40,7 +67,7 @@ header img {
     color: white;
     margin: auto;
     background: rgba(0, 0, 0, 0.6);
-    font-size: 1.75em;
+    font-size: 1em;
     text-align: center;
     padding: 0.75em 1em; 
 
@@ -62,21 +89,20 @@ header img {
 
 }
 
+
+
+
+
 body {
     width: 100%;
 }
 
-nav {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2em;
-}
 
-.img {
-    width: 100%;
+img {
+    max-width: 100%;
 }
 .giant-head {
-    font-size: 60px;
+    font-size: 100px;
     color: white;
 }
 
