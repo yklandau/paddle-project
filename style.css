@@ -120,11 +120,14 @@ main {
     margin: 1em 0;
 }
 
-#about {
+section p {
     text-align: center;
     color: #2d2d2d;
     font-size: .75em;
     line-height: 2;
+    width: 80%;
+    margin: 2em auto;
+    letter-spacing: .75px;
 }
 
 
