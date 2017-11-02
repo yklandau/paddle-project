@@ -1,3 +1,26 @@
+@font-face {
+    src: url("fonts/Pacifico.ttf");
+    font-family: "Pacifico";
+}
+@font-face {
+    src: url url("fonts/Karla-Regular.ttf");
+    font-family: "Karla";
+    font-weight: normal;
+}
+@font-face {
+    src: url url("fonts/Karla-Bold.ttf");
+    font-family: "Karla";
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: "Pacifico", Arial, sans;
+}
+
+* {
+    font-family: "Karla", Arial, sans;
+
+}
 /* Header */
 
 header {
@@ -40,9 +63,9 @@ header nav {
 }
 
 main {
-    margin-top: 145px;
-
-    
+    margin-top: 9em;
+    margin-bottom: 
+  
 
 
 }
@@ -53,22 +76,22 @@ main {
     background: url('images/kayak-bkgd.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 2em 0;
+    padding: 4em 0;
 }
 
 .masthead .center-text {
     width: 100%;
     color: white;
     text-align: center;
-
 }
 
 .masthead p {
-    width: 80%;
     color: white;
-    margin: auto;
+    margin: 2em auto;
     background: rgba(0, 0, 0, 0.6);
-    font-size: 1em;
+    font-size: .75em;
+    line-height: 1.25;
+    width: 70%;
     text-align: center;
     padding: 0.75em 1em; 
 
@@ -78,20 +101,31 @@ main {
     display: block;
     margin: auto;
     text-align: center;
-    font-size: 3em;
+    font-size: .75em;
     color: white;
     text-decoration: none;
-    padding: 0.75em;
+    padding: 1.25em;
 
-    width: 30%;
+    width: 25%;
     background-color: #e2574c;
     border-radius: 60px;
     text-transform: uppercase;
 
 }
 
+.large-heading{
+    font-size: 3em;
+    color: #646464;
+    text-align: center;
+    margin: 1em 0;
+}
 
-
+#about {
+    text-align: center;
+    color: #2d2d2d;
+    font-size: .75em;
+    line-height: 2;
+}
 
 
 body {
@@ -103,9 +137,21 @@ img {
     max-width: 100%;
 }
 .giant-head {
-    font-size: 100px;
+    font-size: 3em;
     color: white;
+    margin: .5em 0;
 }
+.medium-head {
+    font-size: 2em;
+    color: white;
+    margin: .5em 0;
+}
+.smaller-head {
+    font-size: 1.25em;
+    color: white;
+    margin: .5em 0;
+}
+
 
 
 
@@ -113,10 +159,20 @@ img {
 .rental prices th {
 
 }
+/* Tablet Breakpoint*/
 
-/* @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     header {
         flex-direction: row;
+        justify-content: space-around;
     }
-} */
+
+    .images {
+        flex-direction: row;
+    }
+
+    .images img{
+        max-width: 30%;
+    }
+}
 
