@@ -2,11 +2,13 @@
     src: url("fonts/Pacifico.ttf");
     font-family: "Pacifico";
 }
+
 @font-face {
     src: url url("fonts/Karla-Regular.ttf");
     font-family: "Karla";
     font-weight: normal;
 }
+
 @font-face {
     src: url url("fonts/Karla-Bold.ttf");
     font-family: "Karla";
@@ -21,6 +23,8 @@ h1, h2, h3 {
     font-family: "Karla", Arial, sans;
 
 }
+
+
 /* Header */
 
 header {
@@ -40,8 +44,7 @@ header a {
     text-decoration: none;
     text-align: center;
     font-size: 1em;
-    
-   
+       
 }
 
 header img {
@@ -50,7 +53,6 @@ header img {
     margin-bottom: 2em;
     display: block;
 
-    
 }
 
 header nav {
@@ -66,16 +68,17 @@ main {
     margin-top: 9em;
     margin-bottom: 
   
-
-
 }
+
 
 /* Masthead */
 
 .masthead {
-    background: url('images/kayak-bkgd.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-image: 
+    linear-gradient(to right, rgba(8, 8, 8, 0.25), rgba(245, 245, 245, 0.25)), url('images/kayak-bkgd.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center center, center center;
     padding: 4em 0;
 }
 
@@ -91,9 +94,10 @@ main {
     background: rgba(0, 0, 0, 0.6);
     font-size: .75em;
     line-height: 1.25;
-    width: 70%;
+    letter-spacing: 1px;
+    width: 60%;
     text-align: center;
-    padding: 0.75em 1em; 
+    padding: 0.75em 1em;
 
 }
 
@@ -105,6 +109,7 @@ main {
     color: white;
     text-decoration: none;
     padding: 1.25em;
+    letter-spacing: 1px;
 
     width: 25%;
     background-color: #e2574c;
@@ -113,33 +118,11 @@ main {
 
 }
 
-.large-heading{
-    font-size: 3em;
-    color: #646464;
-    text-align: center;
-    margin: 1em 0;
-}
+.masthead a:hover {
+    background-color: rgba(83, 83, 83, 0.5);
+  }
 
-section p {
-    text-align: center;
-    color: #2d2d2d;
-    font-size: .75em;
-    line-height: 2;
-    width: 80%;
-    margin: 2em auto;
-    letter-spacing: .75px;
-}
-
-
-body {
-    width: 100%;
-}
-
-
-img {
-    max-width: 100%;
-}
-.giant-head {
+  .giant-head {
     font-size: 3em;
     color: white;
     margin: .5em 0;
@@ -153,7 +136,43 @@ img {
     font-size: 1.25em;
     color: white;
     margin: .5em 0;
+
 }
+
+
+/* SECTIONS */
+
+  .large-heading{
+    font-size: 3em;
+    color: #646464;
+    text-align: center;
+    margin: 1em 0;
+
+}
+
+section p {
+    text-align: center;
+    color: #2d2d2d;
+    font-size: .75em;
+    line-height: 2;
+    width: 80%;
+    margin: 2em auto;
+    letter-spacing: .75px;
+
+}
+
+
+body {
+    width: 100%;
+
+}
+
+
+img {
+    max-width: 100%;
+
+}
+
 
 
 
