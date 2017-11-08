@@ -44,7 +44,7 @@ header a {
     text-decoration: none;
     text-align: center;
     font-size: 1em;
-       
+    
 }
 
 header img {
@@ -67,7 +67,6 @@ header nav {
 main {
     margin-top: 9em;
     margin-bottom: 
-  
 }
 
 
@@ -120,9 +119,9 @@ main {
 
 .masthead a:hover {
     background-color: rgba(83, 83, 83, 0.5);
-  }
+}
 
-  .giant-head {
+.giant-head {
     font-size: 3em;
     color: white;
     margin: .5em 0;
@@ -142,7 +141,7 @@ main {
 
 /* SECTIONS */
 
-  .large-heading{
+.large-heading{
     font-size: 3em;
     color: #646464;
     text-align: center;
@@ -161,8 +160,18 @@ section p {
 
 }
 
-a{
+#rentals a{
     color: red;
+}
+
+
+#rentals p{
+    text-align: left;
+    font-size: .75em;
+    line-height: 2;
+    width: 80%;
+    margin: 2em 1em;
+    letter-spacing: .75px;
 }
 
 
@@ -196,8 +205,8 @@ th {
 
 
 td {
-        padding: 15px;
-        text-align: left;
+    padding: 15px;
+    text-align: left;
     
 }
 
@@ -214,8 +223,52 @@ table, th, td {
     padding: 15px;
     text-align: center;
 }
+
+
+/* LOCATION */
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background: black;
+    width: 100%;
+    height: 17em;
+    top: 1em;
+    padding: 2em 0;
+
 }
 
+footer p {
+    text-align: center;
+    color: #ffffff;
+    font-size: .75em;
+    line-height: 1.5;
+    width: 80%;
+    margin: 2em auto;
+    letter-spacing: .75px;
+
+}
+
+footer a {
+    color: #ffffff;
+}
+
+
+footer i {
+    color: #ffffff;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em auto;
+}
 
 
 /* Tablet Breakpoint*/
