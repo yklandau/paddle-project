@@ -19,6 +19,10 @@ h1, h2, h3 {
     font-family: "Pacifico", Arial, sans;
 }
 
+footer {
+    font-family: "Karla", Arial, sans;
+}
+
 * {
     font-family: "Karla", Arial, sans;
 
@@ -32,7 +36,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    padding: 2em 0;
+    padding: 1.5em 0;
 
     display: flex;
     flex-direction: column;
@@ -43,6 +47,7 @@ header a {
     color: white;
     text-decoration: none;
     text-align: center;
+    font-family: "Karla", Arial, sans;
     font-size: 1em;
     
 }
@@ -58,6 +63,8 @@ header img {
 header nav {
     text-align: center;
     text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
     width: 80%;
     margin: auto;
     display: flex; 
@@ -65,8 +72,7 @@ header nav {
 }
 
 main {
-    margin-top: 9em;
-    margin-bottom: 
+    margin-top: 7.9 em;
 }
 
 
@@ -166,11 +172,11 @@ section p {
 
 
 #rentals p{
-    text-align: left;
+    text-align: center;
     font-size: .75em;
     line-height: 2;
     width: 80%;
-    margin: 2em 1em;
+    margin: 2em auto;
     letter-spacing: .75px;
 }
 
@@ -227,7 +233,13 @@ table, th, td {
 
 /* LOCATION */
 
+.map{
+    width: 95%;
+    height: 250px;
+    margin: 0 auto 2em auto;
+    display: block;
 
+}
 
 
 
@@ -239,52 +251,106 @@ footer {
     height: 17em;
     top: 1em;
     padding: 2em 0;
+    display: flex;
+    flex-direction: column;
 
 }
 
 footer p {
-    text-align: center;
     color: #ffffff;
     font-size: .75em;
     line-height: 1.5;
-    width: 80%;
+    width: 85%;
     margin: 2em auto;
     letter-spacing: .75px;
+    text-align: center;
 
 }
 
 footer a {
     color: #ffffff;
+    text-align: center;
+    text-decoration: none;
 }
 
 
-footer i {
+footer .icons {
     color: #ffffff;
-
-}
-
-.icons {
+    font-size: .9em;    
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 1em auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em auto;   
+    width: 50%; 
 }
+
+
+.footer-notes p:last-child {
+    color: #a09f9f;
+
+}
+
+/* General */
+
+.hide-on-mobile {
+    display: none;
+}
+
 
 
 /* Tablet Breakpoint*/
 
 @media screen and (min-width: 600px) {
+    
     header {
         flex-direction: row;
         justify-content: space-around;
     }
 
     .images {
+        display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .images img{
-        max-width: 30%;
+        max-width: 32%;
     }
-}
 
+    .hide-on-mobile{
+        display: initial;
+        margin-left: 0.5em;        
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+     footer .icons  {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 16%;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+
+    footer .icons a {
+        text-align: left;
+        margin-top: 1em;
+    }
+
+    footer .footer-notes p {
+        text-align: left;
+    } 
+
+    #rentals .rental-notes p {
+        text-align: left;
+        margin-left: 1em;
+    }
+
+} 
