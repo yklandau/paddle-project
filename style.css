@@ -49,7 +49,10 @@ header a {
     text-align: center;
     font-family: "Karla", Arial, sans;
     font-size: 1em;
-    
+}
+
+header nav a:hover {
+    color: rgba(185, 182, 182, 0.5);
 }
 
 header img {
@@ -115,7 +118,6 @@ main {
     text-decoration: none;
     padding: 1.25em;
     letter-spacing: 1px;
-
     width: 25%;
     background-color: #e2574c;
     border-radius: 60px;
@@ -170,6 +172,10 @@ section p {
     color: red;
 }
 
+#rentals a:hover {
+    color: rgba(185, 182, 182, 0.5);
+}
+
 
 #rentals p {
     text-align: center;
@@ -205,7 +211,7 @@ table {
 }
 
 th {
-    height: 40px;
+    height: 35px;
     text-align: center;
     background-color: #d8d6d6;
     vertical-align: center;
@@ -214,8 +220,8 @@ th {
 
 
 td {
-    padding: 15px;
-    text-align: left;
+    padding: 13px;
+    text-align: center;
     
 }
 
@@ -224,13 +230,17 @@ table {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #a09f9f;
 }
 
 
 .rental prices th {
-    padding: 15px;
+    padding: 13px;
     text-align: center;
+}
+
+ td:first-child {
+    text-align: left;
 }
 
 
@@ -287,6 +297,10 @@ footer .icons {
     width: 50%; 
 }
 
+footer a:hover {
+    color: rgba(185, 182, 182, 0.5);
+}
+
 
 .footer-notes p:last-child {
     color: #a09f9f;
@@ -308,9 +322,28 @@ footer .icons {
     header {
         flex-direction: row;
         justify-content: space-between;
+        max-height: 40px;
+        align-items: center;
+        padding: 0.5em;
     }
 
-    
+    header img {
+        max-width: 25%;
+        margin: 0;
+    }
+
+    header nav {
+        max-width: 30%;
+        margin-right: 1em;
+    }
+
+    main {
+        margin-top: 2.9em;
+    }
+
+    .masthead p {
+        width: 45%;
+    }
 
     .images {
         display: flex;
